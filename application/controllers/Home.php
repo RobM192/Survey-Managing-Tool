@@ -32,8 +32,7 @@ class Home extends CI_Controller {
 
 
 			$u_pass = sha1($this->input->post('u_pass'));
-			//$_u_id = "";
-
+			
 			$user_data = array(
 				'u_name'	=> $u_name,
 				'u_pass'	=> $u_pass,
